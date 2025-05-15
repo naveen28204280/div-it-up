@@ -1,0 +1,123 @@
+h1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: rgb(0, 115, 207);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+.header-buttons{
+    display: flex;
+    gap: 20px;
+}
+#Login-Register-Forms{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 30px;
+    width: 23%;
+    margin-left: 37%;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+h2{
+    color: rgb(0, 115, 207);
+}
+button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+
+}
+#loginForm button , #registerForm button{
+    background-color: rgb(0, 115, 207);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+}
+button:hover{
+    cursor: pointer;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    transition: 1s;
+}
+form{
+    max-width: 200px;
+}
+label{
+    color: black;
+    font-size: large;
+}
+input{
+    border-radius: 10px;
+    border-width: 1px;
+    height: 40px;
+    width: 300px;
+    font-size: medium;
+}
+input:hover{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    transition: 1s;
+}
+input:focus{
+    outline: none;
+}
+#loginError{
+    display: none;
+    color: red;
+    font-size: larger;
+    margin-top: 20px;
+    height: 1.5rem;
+}
+navbar{
+    background-color: (101, 60, 117);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+thead tr {
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #ddd;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+#balance, #currency {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
